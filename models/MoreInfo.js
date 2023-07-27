@@ -8,6 +8,9 @@ const MoreInfoSchema = new Schema(
     userId: {
       type: String,
     },
+    userCounter: {
+      type: Number
+    },
     activeStatus: {
       type: Boolean,
       default: true,
