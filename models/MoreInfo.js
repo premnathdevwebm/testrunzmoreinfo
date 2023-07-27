@@ -9,7 +9,7 @@ const MoreInfoSchema = new Schema(
       type: String,
     },
     userCounter: {
-      type: Number
+      type: String
     },
     activeStatus: {
       type: Boolean,
